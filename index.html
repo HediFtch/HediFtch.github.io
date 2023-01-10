@@ -1,28 +1,114 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Le Monde de la Glisse</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./css/styleAccueil.css">
+    
+    
+</head>
+
+<section class="flex-container">
+  <header class="flex-items">
+      <nav class="menu">
+        <img class="logo" src="./images/logoTexte.png" alt="logo">
+          <input type="checkbox" name="" id="menuBtn">
+          <label for="menuBtn" class="barIcon">
+              <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul>
+              <li><a href="#">Vêtements</a>
+                <ul id="submenu">
+                  <li><a href="page_produits_femme.html">Femme</a></li>
+                  <li><a href="page_produits_homme.html">Homme</a></li>
+                  <li><a href="page_produits_enfant.html">Enfant</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Accesoires</a>
+                <ul id="submenu">
+                  <li><a href="page_skinautique.html">Ski nautique</a></li>
+                  <li><a href="page_plancheavoile.html">Planche à voile</a></li>
+                  <li><a href="page_sup.html">SUP</a></li>
+                  <li><a href="page_canoe.html">Canoë kayak</a></li>
+                </ul>
+              </li>
+              <li><a href="tuto.html">Tutoriels</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <!-- <a href="#"><img class="logo" src="./images/iconeLogin.png" alt="login"></a>  -->
+          <a href="#"><img class="logo" src="./images/iconePanier.png" alt="panier"></a>
+      </nav>
+   </header>
+  <body>
+
+  <section class="flex-items">
+    <img class="cover" src="./images/surfing-5628803_1920.jpg" alt="surfer">
+    <p class="texte_accueil">Le Monde de la glisse</p>
+    <a class="bouton_accueil" href="#">Voir nos produits</a>
+  </section>
+  <section class="flex-items">
+    <p>NOS MEILLEURES VENTES</p>
+    <div class="meilleures-container">
+      
+      <div class="meilleures-items">
+        <img class="meilleures-images" src="images/articlesAccueil/combiPlongee.jpg" />
+        <p>Combinaison Rose - Femme</p>
+        <a class="bouton_meilleures" href="#"> En savoir plus ></a>
+      </div>
+
+      <div class="meilleures-items">
+        <img class="meilleures-images" src="images/articlesAccueil/skiNautique.jpg" />
+        <p>Ski nautiques Made In USA - Enfant</p>
+        <a class="bouton_meilleures" href="#"> En savoir plus ></a>
+      </div>
+
+      <div class="meilleures-items">
+        <img class="meilleures-images" src="images/articlesAccueil/plancheVoile.jpg" />
+        <p>Planche à voile Lime & Azur</p>
+        <a class="bouton_meilleures" href="#"> En savoir plus ></a>
+      </div>
+
+      <div class="meilleures-items">
+        <img class="meilleures-images" src="images/articlesAccueil/plancheSurf.jpg" />
+        <p>Planche Magic SHOT - Surf</p>
+        <a class="bouton_meilleures" href="#"> En savoir plus ></a>
+      </div>
+   </div>
+  </section>
+  </body>
+
+  <footer class="flex-items">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-list">
+          <li class="social-icon"><a class="social-icon__link" href="https://www.facebook.com/MMItoulon/" target="_blank">
+              <img class="logo" src="images/rs/facebook.png">
+            </a></li>
+          <li class="social-icon"><a class="social-icon__link" href="https://twitter.com/univtoulon" target="_blank">
+              <img class="logo" src="images/rs/twitter.png">
+            </a></li>
+          <li class="social-icon"><a class="social-icon__link" href="https://www.linkedin.com/school/mmi-toulon/" target="_blank">
+              <img class="logo" src="images/rs/linkedin.png">
+            </a></li>
+          <li class="social-icon"><a class="social-icon__link" href="https://www.instagram.com/mmi_toulon/" target="_blank">
+              <img class="logo" src="images/rs/instagram.png">
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Vêtement</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Accessoires</a></li>
+          <li class="menu__item"><a class="menu__link" href="tuto.html">Tutoriels</a></li>
+          <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+        </ul>
+        <p>Le Monde de la Glisse - S.BOUSNINA & H.FATOUCH</p>
+  </footer>
+
+</section>
+
 </html>
